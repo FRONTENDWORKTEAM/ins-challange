@@ -1,0 +1,14 @@
+@import '../shareds.scss';
+
+.form {
+  &-label {
+    font-size: 0.875rem;
+    line-height: 1rem;
+    color: $colorTitle;
+  }
+  &-control {
+    border-color: $colorBorder;
+    background: #FFFFFF;
+    color: $colorTitle;
+  }
+}
