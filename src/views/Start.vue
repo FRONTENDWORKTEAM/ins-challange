@@ -1,7 +1,7 @@
 <template lang="pug">
   main.component.is-start
     Alert
-    Segments
+    Segments(v-if="loaded")
 </template>
 
 <script>
@@ -15,6 +15,11 @@ export default {
     ...mapGetters({
       loaded: 'application/loaded',
       loading: 'application/loading',
+      categories: 'application/categories',
+      operators: 'application/operators',
+      inputs: 'application/inputs',
+      conditions: 'application/conditions',
+      groupList: 'application/groupList',
     }),
   },
   methods: {
@@ -24,6 +29,11 @@ export default {
   },
   mounted() {
     this.getAppData();
+    console.log('categories: ', this.categories,
+      'operators: ', this.operators,
+      'inputs: ', this.inputs,
+      'conditions: ', this.conditions,
+      'groupList ', this.groupList);
   },
   components: {
     Alert,

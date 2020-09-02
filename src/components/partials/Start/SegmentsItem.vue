@@ -1,13 +1,40 @@
 <template lang="pug">
-  router-link.component.is-start-segments-item(to="/")
+  router-link.component.is-start-segments-item(:to="redirectRoute")
     span.start-segments-item--wrapper
       span.start-segments-item--title
         Icon.icon(name="segment-1")
-        span.title Predictive Segments
-      span
-        | Target users based on their demographic variables,
-        | shopping behaviors and personal interests.
+        span.title {{ segment }}
 </template>
+
+<script>
+import { mapGetters } from 'vuex';
+
+export default {
+  computed: {
+    ...mapGetters({
+      categoriesSelected: 'application/categoriesSelected',
+    }),
+    redirectRoute() {
+      return this.categoriesSelected.includes(`${this.id}`) ? `/create/${this.id}` : '/';
+    },
+  },
+  props: {
+    segment: {
+      type: String,
+      required: true,
+      default: null,
+    },
+    id: {
+      type: Number,
+      required: true,
+      default: null,
+    },
+  },
+  mounted() {
+    console.log(this.segment);
+  },
+};
+</script>
 
 <style lang="scss" scoped>
 @import '../../../styles/shareds.scss';

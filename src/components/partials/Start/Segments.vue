@@ -6,14 +6,22 @@
           h3 Segments
         .start-segments__segments
           SegmentsItem.start-segments__segments__item(
-            v-for="n in 12"
-            :key="`StartSegmentItem${n}`")
+            v-for="(segment, i) in categories"
+            :segment="segment"
+            :id="i"
+            :key="`StartSegmentItem${i}`")
 </template>
 
 <script>
+import { mapGetters } from 'vuex';
 import SegmentsItem from './SegmentsItem.vue';
 
 export default {
+  computed: {
+    ...mapGetters({
+      categories: 'application/categories',
+    }),
+  },
   components: {
     SegmentsItem,
   },
