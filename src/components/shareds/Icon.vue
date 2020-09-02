@@ -21,6 +21,10 @@ export default {
           name: 'chevron-right',
           viewBox: '0 0 6 10',
         },
+        {
+          name: 'close',
+          viewBox: '0 0 14 14',
+        },
       ],
     };
   },
