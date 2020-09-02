@@ -19,7 +19,6 @@ export default {
       operators: 'application/operators',
       inputs: 'application/inputs',
       conditions: 'application/conditions',
-      groupList: 'application/groupList',
     }),
   },
   methods: {
