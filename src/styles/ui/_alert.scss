@@ -1,0 +1,24 @@
+@import '../shareds.scss';
+
+.alert {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  color: $colorTitle;
+  &--icon {
+    height: 1.125rem;
+    width: auto;
+    margin-right: 0.75rem;
+  }
+  &--text {
+    flex-basis: 0;
+    flex-grow: 1;
+  }
+  &.is-info {
+    background: #D3EEF8;
+    border: 1px solid #258DDE;
+    .alert--icon {
+      color: #258DDE;
+    }
+  }
+}

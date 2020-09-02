@@ -28,3 +28,15 @@ export default {
   },
 };
 </script>
+
+<style lang="scss" scoped>
+@import '../styles/shareds.scss';
+
+$this: 'start';
+
+main.component {
+  &.is-#{$this} {
+    padding: 1.5rem 1rem;
+  }
+}
+</style>
