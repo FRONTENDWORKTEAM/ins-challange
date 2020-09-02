@@ -5,4 +5,5 @@
 
 <style lang="scss">
 @import './styles/vendors.scss';
+@import './styles/global.scss';
 </style>
