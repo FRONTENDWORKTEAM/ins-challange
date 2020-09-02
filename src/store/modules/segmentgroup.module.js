@@ -13,6 +13,15 @@ const actions = {
     };
     commit('ADD_SEGMENT', { ...payload, ...{ activeCategory } });
   },
+  updateSegment: ({ commit }, payload) => {
+    commit('UPDATE_SEGMENT', payload);
+  },
+  removeSegment: ({ commit }, payload) => {
+    commit('REMOVE_SEGMENT', payload);
+  },
+  updateGroup: ({ commit }, payload) => {
+    commit('UPDATE_GROUP', payload);
+  },
 };
 
 const mutations = {
@@ -38,6 +47,24 @@ const mutations = {
       activeCategory: payload.activeCategory,
     });
     groups[groupId] = activeGroup;
+    state.groups = groups;
+  },
+  UPDATE_SEGMENT(state, payload) {
+    const groups = JSON.parse(JSON.stringify(state.groups));
+    groups[payload.groupId].conditionList[payload.segmentIndex] = payload.segment;
+    state.groups = groups;
+  },
+  UPDATE_GROUP(state, payload) {
+    const groups = JSON.parse(JSON.stringify(state.groups));
+    groups[payload.groupId] = payload.group;
+    state.groups = groups;
+  },
+  REMOVE_SEGMENT(state, payload) {
+    const groups = JSON.parse(JSON.stringify(state.groups));
+    groups[payload.groupId].conditionList.splice(payload.segmentIndex, 1);
+    if (groups[payload.groupId].conditionList.length < 1) {
+      delete groups[payload.groupId];
+    }
     state.groups = groups;
   },
 };

@@ -6,6 +6,7 @@ const getters = {
   operators: (state) => state.application.operators,
   inputs: (state) => state.application.inputs,
   conditions: (state) => state.application.conditions,
+  parameterOperators: (state) => state.application.parameterOperators,
 };
 
 const actions = {
