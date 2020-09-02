@@ -1,0 +1,1468 @@
+{
+   "categoriesAllList":{
+      "1":"condition.category-predictive",
+      "2":"condition.category-purchase-history",
+      "3":"condition.category-visit-history",
+      "4":"condition.category-analytics",
+      "5":"condition.category-first-party",
+      "6":"condition.category-personalization",
+      "7":"condition.category-ip-address",
+      "8":"condition.category-location",
+      "9":"condition.category-source-url",
+      "12":"condition.category-custom-segment",
+      "13":"condition.category-user-attributes",
+      "14":"condition.category-crm-attribute",
+      "15":"condition.category-products",
+      "16":"condition.category-landing-url",
+      "17":"condition.category-technographics",
+      "18":"condition.category-rfm"
+   },
+   "categoriesSelected":[
+      "1",
+      "2"
+   ],
+   "conditionsAllList":[
+      "segment.predictive.likehood-purchase",
+      "segment.predictive.historical-customer",
+      "segment.predictive.customer-lifecycle-status",
+      "segment.predictive.interest-cluster",
+      "segment.predictive.likelihood-to-churn",
+      "segment.predictive.predicted-conversion-range",
+      "segment.predictive.discount-affinity",
+      "segment.predictive.attribute-affinity",
+      "segment.purchase-history.average-order",
+      "segment.purchase-history.average-order-all",
+      "segment.purchase-history.average-order-day",
+      "segment.purchase-history.average-order-time",
+      "segment.purchase-history.total-spent",
+      "segment.purchase-history.total-spent-all",
+      "segment.purchase-history.total-spent-day",
+      "segment.purchase-history.total-spent-time",
+      "segment.purchase-history.purchase-count",
+      "segment.purchase-history.purchase-count-all",
+      "segment.purchase-history.purchase-count-day",
+      "segment.purchase-history.purchase-count-time",
+      "segment.purchase-history.last-purchase-date",
+      "segment.purchase-history.last-purchase-day",
+      "segment.purchase-history.last-purchase-time",
+      "segment.purchase-history.last-purchase-amount"
+   ],
+   "conditionsSelected":[
+      "segment.predictive.likehood-purchase",
+      "segment.predictive.historical-customer",
+      "segment.predictive.customer-lifecycle-status",
+      "segment.predictive.interest-cluster",
+      "segment.predictive.likelihood-to-churn",
+      "segment.predictive.predicted-conversion-range",
+      "segment.predictive.discount-affinity",
+      "segment.predictive.attribute-affinity",
+      "segment.purchase-history.average-order",
+      "segment.purchase-history.average-order-all",
+      "segment.purchase-history.average-order-day",
+      "segment.purchase-history.average-order-time",
+      "segment.purchase-history.total-spent",
+      "segment.purchase-history.total-spent-all",
+      "segment.purchase-history.total-spent-day",
+      "segment.purchase-history.total-spent-time",
+      "segment.purchase-history.purchase-count",
+      "segment.purchase-history.purchase-count-all",
+      "segment.purchase-history.purchase-count-day",
+      "segment.purchase-history.purchase-count-time",
+      "segment.purchase-history.last-purchase-date",
+      "segment.purchase-history.last-purchase-day",
+      "segment.purchase-history.last-purchase-time",
+      "segment.purchase-history.last-purchase-amount"
+   ],
+   "inputs":{
+      "boolean":[
+         "is",
+         "is not"
+      ],
+      "string":[
+         "contains",
+         "exactly",
+         "does not contain",
+         "does not match",
+         "empty",
+         "not empty"
+      ],
+      "url":[
+         "contains",
+         "exactly",
+         "does not contain",
+         "does not match"
+      ],
+      "number":[
+         "greater than",
+         "less than",
+         "greater than or equal to",
+         "less than or equal to",
+         "equal to",
+         "empty",
+         "not empty"
+      ],
+      "date":[
+         "in",
+         "not in",
+         "empty",
+         "not empty"
+      ],
+      "pastDate":[
+         "was",
+         "was not"
+      ],
+      "booleanIn":[
+         "in",
+         "not in"
+      ],
+      "onlyIn":[
+         "in"
+      ],
+      "fakeStatus":[
+         "is active",
+         "is inactive"
+      ],
+      "webPushUserStatus":[
+         "permission granted",
+         "permission denied",
+         "permission default"
+      ],
+      "attributeAffinity":[
+         "fake is",
+         "fake is not"
+      ],
+      "bounceInputs":[
+         "is"
+      ],
+      "scrollInputs":[
+         "scroll"
+      ],
+      "booleanBetween":[
+         "between",
+         "not between"
+      ],
+      "fakeBooleanIn":[
+         "fake in",
+         "fake not in"
+      ],
+      "shortNumber":[
+         "greater than",
+         "less than"
+      ],
+      "midNumber":[
+         "fake equal to",
+         "fake greater than",
+         "fake less than"
+      ],
+      "fakeBoolean":[
+         "fake is",
+         "fake is not"
+      ],
+      "fakeBooleanIs":[
+         "fake is"
+      ],
+      "fakeBooleanGreaterThan":[
+         "fake is greater and equal to",
+         "fake is not"
+      ],
+      "fakeNumber":[
+         "fake greater than",
+         "fake less than",
+         "fake greater than or equal to",
+         "fake less than or equal to",
+         "fake equal to"
+      ],
+      "event":[
+         "fake equal to",
+         "fake is not",
+         "fake less than",
+         "fake greater than",
+         "fake less than or equal to",
+         "fake greater than or equal to"
+      ],
+      "targetContactList":[
+         "equal to"
+      ],
+      "purchaseOrder":[
+         "before",
+         "after",
+         "equal to"
+      ],
+      "fakeDate":[
+         "before",
+         "after",
+         "fake equal to",
+         "empty",
+         "not empty"
+      ],
+      "primitives":[
+         "contains",
+         "exactly",
+         "does not contain",
+         "greater than",
+         "less than",
+         "greater than or equal to",
+         "less than or equal to",
+         "equal to",
+         "is",
+         "is not"
+      ],
+      "fakeString":[
+         "fake contains",
+         "fake exactly",
+         "fake does not contain"
+      ],
+      "datetime":[
+         "is",
+         "is not",
+         "empty",
+         "not empty"
+      ],
+      "includeOrExclude":[
+         "include",
+         "exclude"
+      ]
+   },
+   "operators":{
+      "is":{
+         "name":"is",
+         "expression":"===",
+         "comparisonValue":"true",
+         "rule":"{functionTemplate}"
+      },
+      "is not":{
+         "name":"is not",
+         "expression":"===",
+         "comparisonValue":"false",
+         "rule":"{functionTemplate}"
+      },
+      "permission granted":{
+         "name":"Allowed opt-in",
+         "expression":"===",
+         "comparisonValue":"\"granted\"",
+         "rule":"{functionTemplate}"
+      },
+      "permission denied":{
+         "name":"Blocked opt-in",
+         "expression":"===",
+         "comparisonValue":"\"denied\"",
+         "rule":"{functionTemplate}"
+      },
+      "permission default":{
+         "name":"Didn't see opt-in yet",
+         "expression":"===",
+         "comparisonValue":"\"default\"",
+         "rule":"{functionTemplate}"
+      },
+      "is active":{
+         "name":"Active",
+         "expression":"===",
+         "comparisonValue":"true",
+         "rule":"{functionTemplate}"
+      },
+      "is inactive":{
+         "name":"Passive",
+         "expression":"===",
+         "comparisonValue":"false",
+         "rule":"{functionTemplate}"
+      },
+      "contains":{
+         "name":"contains",
+         "expression":">",
+         "comparisonValue":"-1",
+         "rule":"{functionTemplate}.indexOf({value})"
+      },
+      "does not contain":{
+         "name":"does not contain",
+         "expression":"==",
+         "comparisonValue":"-1",
+         "rule":"{functionTemplate}.indexOf({value})"
+      },
+      "does not match":{
+         "name":"does not match",
+         "expression":"!=",
+         "comparisonValue":"{value}",
+         "rule":"{functionTemplate}"
+      },
+      "exactly":{
+         "name":"is exactly",
+         "expression":"===",
+         "comparisonValue":"{value}",
+         "rule":"{functionTemplate}"
+      },
+      "greater than":{
+         "name":"is greater than",
+         "expression":">",
+         "comparisonValue":"{value}",
+         "rule":"{functionTemplate}"
+      },
+      "less than":{
+         "name":"is less than",
+         "expression":"<",
+         "comparisonValue":"{value}",
+         "rule":"{functionTemplate}"
+      },
+      "greater than or equal to":{
+         "name":"is greater than or equal to",
+         "expression":">=",
+         "comparisonValue":"{value}",
+         "rule":"{functionTemplate}"
+      },
+      "less than or equal to":{
+         "name":"is less than or equal to",
+         "expression":"<=",
+         "comparisonValue":"{value}",
+         "rule":"{functionTemplate}"
+      },
+      "equal to":{
+         "name":"is equal to",
+         "expression":"==",
+         "comparisonValue":"{value}",
+         "rule":"{functionTemplate}"
+      },
+      "in":{
+         "name":"in",
+         "expression":"===",
+         "comparisonValue":"true",
+         "rule":"{functionTemplate}"
+      },
+      "not in":{
+         "name":"not in",
+         "expression":"===",
+         "comparisonValue":"false",
+         "rule":"{functionTemplate}"
+      },
+      "between":{
+         "name":"is between",
+         "expression":"===",
+         "comparisonValue":"true",
+         "rule":"{functionTemplate}"
+      },
+      "not between":{
+         "name":"is not between",
+         "expression":"===",
+         "comparisonValue":"false",
+         "rule":"{functionTemplate}"
+      },
+      "scroll":{
+         "name":"is greater than or equal to",
+         "expression":"===",
+         "comparisonValue":"true",
+         "rule":"{functionTemplate}"
+      },
+      "fake in":{
+         "name":"in",
+         "expression":"===",
+         "fakeExpression":"==",
+         "comparisonValue":"true",
+         "rule":"{functionTemplate}"
+      },
+      "fake not in":{
+         "name":"not in",
+         "expression":"===",
+         "fakeExpression":"!=",
+         "comparisonValue":"true",
+         "rule":"{functionTemplate}"
+      },
+      "fake is":{
+         "name":"is",
+         "expression":"===",
+         "fakeExpression":"==",
+         "comparisonValue":"true",
+         "rule":"{functionTemplate}"
+      },
+      "fake is not":{
+         "name":"is not",
+         "expression":"===",
+         "fakeExpression":"!=",
+         "comparisonValue":"true",
+         "rule":"{functionTemplate}"
+      },
+      "fake is greater and equal to":{
+         "name":"is",
+         "expression":"===",
+         "fakeExpression":">",
+         "comparisonValue":"true",
+         "rule":"{functionTemplate}"
+      },
+      "fake equal to":{
+         "name":"is equal to",
+         "expression":"===",
+         "fakeExpression":"==",
+         "comparisonValue":"true",
+         "rule":"{functionTemplate}"
+      },
+      "fake less than":{
+         "name":"is less than",
+         "expression":"===",
+         "fakeExpression":"<",
+         "comparisonValue":"true",
+         "rule":"{functionTemplate}"
+      },
+      "fake greater than":{
+         "name":"is greater than",
+         "expression":"===",
+         "fakeExpression":">",
+         "comparisonValue":"true",
+         "rule":"{functionTemplate}"
+      },
+      "fake greater than or equal to":{
+         "name":"is greater than or equal to",
+         "expression":"===",
+         "fakeExpression":">=",
+         "comparisonValue":"true",
+         "rule":"{functionTemplate}"
+      },
+      "fake less than or equal to":{
+         "name":"is less than or equal to",
+         "expression":"===",
+         "fakeExpression":"<=",
+         "comparisonValue":"true",
+         "rule":"{functionTemplate}"
+      },
+      "before":{
+         "name":"before",
+         "expression":"===",
+         "fakeExpression":"<=",
+         "comparisonValue":"true",
+         "rule":"{functionTemplate}"
+      },
+      "after":{
+         "name":"after",
+         "expression":"===",
+         "fakeExpression":">=",
+         "comparisonValue":"true",
+         "rule":"{functionTemplate}"
+      },
+      "fake contains":{
+         "name":"contains",
+         "expression":"==",
+         "fakeExpression":".indexOf() > -1",
+         "comparisonValue":"1",
+         "rule":"{functionTemplate}"
+      },
+      "fake exactly":{
+         "name":"is exactly",
+         "expression":"==",
+         "fakeExpression":"===",
+         "comparisonValue":"true",
+         "rule":"{functionTemplate}"
+      },
+      "fake does not contain":{
+         "name":"does not contain",
+         "expression":"==",
+         "fakeExpression":".indexOf() < 0",
+         "comparisonValue":"1",
+         "rule":"{functionTemplate}"
+      },
+      "was":{
+         "name":"was",
+         "expression":"===",
+         "comparisonValue":"true",
+         "rule":"{functionTemplate}"
+      },
+      "was not":{
+         "name":"was not",
+         "expression":"===",
+         "comparisonValue":"false",
+         "rule":"{functionTemplate}"
+      },
+      "include":{
+         "name":"Include",
+         "expression":">=",
+         "comparisonValue":"false",
+         "rule":"{functionTemplate}"
+      },
+      "exclude":{
+         "name":"Exclude",
+         "expression":"===",
+         "comparisonValue":"false",
+         "rule":"{functionTemplate}"
+      },
+      "empty":{
+         "name":"condition.empty",
+         "expression":"===",
+         "comparisonValue":"",
+         "rule":"{functionTemplate}"
+      },
+      "not empty":{
+         "name":"condition.not-empty",
+         "expression":"!==",
+         "comparisonValue":"",
+         "rule":"{functionTemplate}"
+      }
+   },
+   "categories":{
+      "1":"Predictive Segments",
+      "2":"Purchase History",
+      "3":"Visit History",
+      "5":"1st Party Segments",
+      "6":"Personalization History",
+      "12":"Custom Segment",
+      "14":"CRM Attributes"
+   },
+   "conditions":[
+      {
+         "category":"1",
+         "id":"4",
+         "name":"Likelihood to Purchase",
+         "alias":"likehoodPurchase",
+         "operatorType":"fakeBooleanIs",
+         "inputs":{
+            "segment":{
+               "inputType":"select",
+               "valueType":"string",
+               "valueFrom":"getL2pList",
+               "placeholder":"Percent",
+               "hash":true,
+               "values":[
+                  {
+                     "value":"h",
+                     "desc":"High"
+                  }
+               ]
+            },
+            "predictiveKey":{
+               "valueType":"string",
+               "display":"none",
+               "parseFrom":"getHashedValue",
+               "functionParams":[
+                  "l2p"
+               ]
+            }
+         },
+         "ucdFilter":{
+            "valueType":"integer",
+            "function":"createPredefinedDateBoundFilter",
+            "type":"attribute",
+            "key":"last_updated_ltp",
+            "operators":{
+               "fake is":"ge"
+            },
+            "value":7
+         },
+         "functionTemplate":"spApi.checkPredictiveData({segment}, {%operator%}, \"{predictiveKey}\", {persID})",
+         "mainFunctionPrefixes":[
+            "checkPredictiveData"
+         ]
+      },
+      {
+         "category":"1",
+         "id":"5",
+         "name":"Customer Value",
+         "alias":"historicalCustomer",
+         "operatorType":"fakeBoolean",
+         "inputs":{
+            "type":{
+               "inputType":"select",
+               "valueType":"string",
+               "valueFrom":"getHistoricalTypeList",
+               "placeholder":"Type",
+               "hash":true,
+               "values":[
+                  {
+                     "value":"1",
+                     "desc":"VIP"
+                  },
+                  {
+                     "value":"2",
+                     "desc":"High"
+                  },
+                  {
+                     "value":"3",
+                     "desc":"standard"
+                  }
+               ]
+            },
+            "predictiveKey":{
+               "valueType":"string",
+               "display":"none",
+               "parseFrom":"getHashedValue",
+               "functionParams":[
+                  "c_value"
+               ]
+            }
+         },
+         "ucdFilter":{
+            "valueType":"integer",
+            "type":"attribute",
+            "function":"createKeyValueFilter",
+            "key":"clv",
+            "operators":{
+               "fake is":"eq",
+               "fake is not":"ne"
+            },
+            "value":1
+         },
+         "functionTemplate":"spApi.checkPredictiveData({type}, {%operator%}, \"{predictiveKey}\")",
+         "mainFunctionPrefixes":[
+            "checkPredictiveData"
+         ]
+      },
+      {
+         "category":"1",
+         "id":"22",
+         "name":"Customer Lifecycle Status",
+         "alias":"customerLifecycleStatus",
+         "operatorType":"boolean",
+         "inputs":{
+            "status":{
+               "inputType":"select",
+               "valueType":"string",
+               "valueFrom":"getCustomerLifecycleStatusList",
+               "placeholder":"Type",
+               "hash":true,
+               "values":[
+                  {
+                     "optgroup":"true",
+                     "label":"Visitors",
+                     "options":[
+                        {
+                           "value":"2",
+                           "desc":"Visitor"
+                        },
+                        {
+                           "value":"3",
+                           "desc":"Potential Buyer"
+                        },
+                        {
+                           "value":"1",
+                           "desc":"Silent"
+                        },
+                        {
+                           "value":"visitor_all",
+                           "desc":"All types"
+                        }
+                     ]
+                  },
+                  {
+                     "optgroup":"true",
+                     "label":"Customers",
+                     "options":[
+                        {
+                           "value":"6",
+                           "desc":"Active Customer"
+                        },
+                        {
+                           "value":"5",
+                           "desc":"Inactive Customer"
+                        },
+                        {
+                           "value":"4",
+                           "desc":"Churn Customer"
+                        },
+                        {
+                           "value":"customer_all",
+                           "desc":"All types"
+                        }
+                     ]
+                  }
+               ]
+            },
+            "predictiveKey":{
+               "valueType":"string",
+               "display":"none",
+               "parseFrom":"getHashedValue",
+               "functionParams":[
+                  "cls"
+               ]
+            }
+         },
+         "ucdFilter":{
+            "valueType":"integer",
+            "type":"attribute",
+            "function":"createDivergentValueFilter",
+            "key":"cls",
+            "operators":{
+               "is":"eq",
+               "is not":"ne"
+            },
+            "value":2,
+            "divergences":{
+               "visitor_all":{
+                  "value":[
+                     1,
+                     2,
+                     3
+                  ]
+               },
+               "customer_all":{
+                  "value":[
+                     4,
+                     5,
+                     6
+                  ]
+               }
+            }
+         },
+         "functionTemplate":"spApi.checkPredictiveData({status}, \"no_logic\", \"{predictiveKey}\")",
+         "mainFunctionPrefixes":[
+            "checkPredictiveData"
+         ]
+      },
+      {
+         "category":"1",
+         "id":"10",
+         "name":"Interest Cluster",
+         "alias":"interestCluster",
+         "operatorType":"fakeBoolean",
+         "inputs":{
+            "interestCluster":{
+               "inputType":"select",
+               "valueType":"string",
+               "valueFrom":"getInterestClusterList",
+               "placeholder":"Cluster Name",
+               "hash":true,
+               "values":[
+                  {
+                     "id":1,
+                     "clusterName":"0",
+                     "clusterText":"Computer",
+                     "createdAt":"2020-03-25 16:59:50",
+                     "updatedAt":"2020-03-25 16:59:51",
+                     "value":"0",
+                     "desc":"Computer"
+                  },
+                  {
+                     "id":2,
+                     "clusterName":"1",
+                     "clusterText":"housewifes",
+                     "createdAt":"2020-03-25 16:59:50",
+                     "updatedAt":"2020-03-25 16:59:51",
+                     "value":"1",
+                     "desc":"housewifes"
+                  },
+                  {
+                     "id":3,
+                     "clusterName":"2",
+                     "clusterText":"Tech Savvy",
+                     "createdAt":"2020-03-25 16:59:50",
+                     "updatedAt":"2020-03-25 16:59:51",
+                     "value":"2",
+                     "desc":"Tech Savvy"
+                  },
+                  {
+                     "id":4,
+                     "clusterName":"3",
+                     "clusterText":"TV",
+                     "createdAt":"2020-03-25 16:59:50",
+                     "updatedAt":"2020-03-25 16:59:51",
+                     "value":"3",
+                     "desc":"TV"
+                  },
+                  {
+                     "id":5,
+                     "clusterName":"4",
+                     "clusterText":"White Goods",
+                     "createdAt":"2020-03-25 16:59:50",
+                     "updatedAt":"2020-03-25 16:59:51",
+                     "value":"4",
+                     "desc":"White Goods"
+                  },
+                  {
+                     "id":6,
+                     "clusterName":"5",
+                     "clusterText":"Iphone Lovers",
+                     "createdAt":"2020-03-25 16:59:50",
+                     "updatedAt":"2020-03-25 16:59:51",
+                     "value":"5",
+                     "desc":"Iphone Lovers"
+                  },
+                  {
+                     "id":7,
+                     "clusterName":"6",
+                     "clusterText":"Oo baby baby",
+                     "createdAt":"2020-03-25 16:59:50",
+                     "updatedAt":"2020-03-25 16:59:51",
+                     "value":"6",
+                     "desc":"Oo baby baby"
+                  },
+                  {
+                     "id":8,
+                     "clusterName":"7",
+                     "clusterText":"Cameras",
+                     "createdAt":"2020-03-25 16:59:50",
+                     "updatedAt":"2020-03-25 16:59:51",
+                     "value":"7",
+                     "desc":"Cameras"
+                  }
+               ]
+            }
+         },
+         "ucdFilter":{
+            "valueType":"integer",
+            "type":"attribute",
+            "function":"createKeyValueFilter",
+            "key":"ic",
+            "operators":{
+               "fake is":"eq",
+               "fake is not":"ne"
+            }
+         },
+         "functionTemplate":"spApi.checkPredictiveInterestCluster({interestCluster}, {%operator%})",
+         "mainFunctionPrefixes":[
+            "checkPredictiveInterestCluster"
+         ]
+      },
+      {
+         "category":"1",
+         "id":"18",
+         "name":"Likelihood to Churn",
+         "alias":"predictiveLikelihoodToChurn",
+         "operatorType":"fakeBoolean",
+         "inputs":{
+            "likelihoodToChurnInputValue":{
+               "inputType":"select",
+               "valueType":"string",
+               "valueFrom":"getL2pList",
+               "placeholder":"Percent",
+               "parseFrom":"parseLikelihoodToChurn",
+               "functionParams":[
+
+               ],
+               "hash":true,
+               "values":[
+                  {
+                     "value":"h",
+                     "desc":"High"
+                  }
+               ]
+            },
+            "predictiveKey":{
+               "valueType":"string",
+               "display":"none",
+               "parseFrom":"getHashedValue",
+               "functionParams":[
+                  "churn_prediction"
+               ]
+            }
+         },
+         "ucdFilter":{
+            "valueType":"integer",
+            "function":"createPredefinedDateBoundFilter",
+            "type":"attribute",
+            "key":"churn_prediction",
+            "operators":{
+               "fake is":"eq",
+               "fake is not":"ne"
+            },
+            "value":1
+         },
+         "functionTemplate":"spApi.checkPredictiveData(\"{likelihoodToChurnInputValue}\", {%operator%}, \"{predictiveKey}\")",
+         "mainFunctionPrefixes":[
+            "checkPredictiveData"
+         ]
+      },
+      {
+         "category":"1",
+         "id":"17",
+         "name":"Predicted Conversion Range",
+         "alias":"predictivePredictedConversionRange",
+         "operatorType":"fakeBoolean",
+         "inputs":{
+            "predictedConversionRange":{
+               "inputType":"select",
+               "valueType":"string",
+               "valueFrom":"getEligibleList",
+               "placeholder":"Eligible",
+               "hash":true,
+               "values":[
+                  {
+                     "value":"e",
+                     "desc":"Eligible"
+                  }
+               ]
+            },
+            "predictiveKey":{
+               "valueType":"string",
+               "display":"none",
+               "parseFrom":"getHashedValue",
+               "functionParams":[
+                  "pcdate"
+               ]
+            }
+         },
+         "ucdFilter":{
+            "valueType":"integer",
+            "type":"attribute",
+            "function":"createPredictedConversionRangeFilter",
+            "hasDoubleCondition":true,
+            "doubleValueCondition":"and",
+            "operators":{
+               "fake is":{
+                  "begin":"ge",
+                  "end":"le"
+               },
+               "fake is not":{
+                  "begin":"lt",
+                  "end":"gt"
+               }
+            }
+         },
+         "functionTemplate":"spApi.checkPredictiveData({predictedConversionRange}, {%operator%}, \"{predictiveKey}\")",
+         "mainFunctionPrefixes":[
+            "checkPredictiveData"
+         ]
+      },
+      {
+         "category":"1",
+         "id":"19",
+         "name":"Discount Affinity",
+         "alias":"predictiveDiscountAffinity",
+         "operatorType":"fakeBoolean",
+         "inputs":{
+            "discountAffinityInputValue":{
+               "inputType":"select",
+               "valueType":"string",
+               "valueFrom":"getDiscountAffinityList",
+               "placeholder":"Percent",
+               "parseFrom":"parseDiscountAffinity",
+               "functionParams":[
+                  "{discountAffinityInputValue}"
+               ],
+               "hash":true,
+               "values":[
+                  {
+                     "value":"h",
+                     "desc":"High"
+                  },
+                  {
+                     "value":"m",
+                     "desc":"Medium"
+                  },
+                  {
+                     "value":"l",
+                     "desc":"Low"
+                  }
+               ]
+            },
+            "predictiveKey":{
+               "valueType":"string",
+               "display":"none",
+               "parseFrom":"getHashedValue",
+               "functionParams":[
+                  "disaffinity"
+               ]
+            }
+         },
+         "ucdFilter":{
+            "type":"attribute",
+            "valueType":"integer",
+            "function":"createDiscountAffinityFilter",
+            "key":"da",
+            "operators":{
+               "fake is":"eq",
+               "fake is not":"ne"
+            }
+         },
+         "functionTemplate":"spApi.checkPredictiveData({discountAffinityInputValue}, {%operator%}, \"{predictiveKey}\")",
+         "mainFunctionPrefixes":[
+            "checkPredictiveData"
+         ]
+      },
+      {
+         "category":"2",
+         "id":"6",
+         "name":"Average Order Value (all-time)",
+         "alias":"averageOrderAll",
+         "operatorType":"midNumber",
+         "inputs":{
+            "amount":{
+               "inputType":"number",
+               "valueType":"int",
+               "placeholder":"Amount"
+            },
+            "predictiveKeyTime":{
+               "valueType":"string",
+               "display":"none",
+               "parseFrom":"getHashedValue",
+               "functionParams":[
+                  "of all time"
+               ]
+            },
+            "predictiveKeyType":{
+               "valueType":"string",
+               "display":"none",
+               "parseFrom":"getHashedValue",
+               "functionParams":[
+                  "avgOrder"
+               ]
+            }
+         },
+         "functionTemplate":"spApi.checkPredictiveAmountData(\"\", \"{predictiveKeyTime}\", \"{predictiveKeyType}\", \"undefined\", \"undefined\", {amount}, {%operator%})",
+         "mainFunctionPrefixes":[
+            "checkPredictiveAmountData"
+         ]
+      },
+      {
+         "category":"2",
+         "id":"7",
+         "name":"Average Order Value (last x day(s))",
+         "alias":"averageOrderDay",
+         "operatorType":"midNumber",
+         "inputs":{
+            "day":{
+               "inputType":"number",
+               "valueType":"int",
+               "placeholder":"Number of Days"
+            },
+            "amount":{
+               "inputType":"number",
+               "valueType":"int",
+               "placeholder":"Amount"
+            },
+            "predictiveKeyTime":{
+               "valueType":"string",
+               "display":"none",
+               "parseFrom":"getHashedValue",
+               "functionParams":[
+                  "in last"
+               ]
+            },
+            "predictiveKeyType":{
+               "valueType":"string",
+               "display":"none",
+               "parseFrom":"getHashedValue",
+               "functionParams":[
+                  "avgOrder"
+               ]
+            }
+         },
+         "functionTemplate":"spApi.checkPredictiveAmountData({day}, \"{predictiveKeyTime}\", \"{predictiveKeyType}\", \"undefined\", \"undefined\", {amount}, {%operator%})",
+         "mainFunctionPrefixes":[
+            "checkPredictiveAmountData"
+         ]
+      },
+      {
+         "category":"2",
+         "id":"8",
+         "name":"Average Order Value (during a time period)",
+         "alias":"averageOrderTime",
+         "operatorType":"midNumber",
+         "inputs":{
+            "time":{
+               "inputType":"text",
+               "valueType":"string",
+               "placeholder":"Time Period",
+               "class":"dateRangePicker"
+            },
+            "amount":{
+               "inputType":"number",
+               "valueType":"int",
+               "placeholder":"Amount"
+            },
+            "timestamp1":{
+               "valueType":"string",
+               "display":"none",
+               "parseFrom":"parseBetweenTime",
+               "functionParams":[
+                  "{time}",
+                  "first"
+               ]
+            },
+            "timestamp2":{
+               "valueType":"string",
+               "display":"none",
+               "parseFrom":"parseBetweenTime",
+               "functionParams":[
+                  "{time}",
+                  "second"
+               ]
+            },
+            "predictiveKeyTime":{
+               "valueType":"string",
+               "display":"none",
+               "parseFrom":"getHashedValue",
+               "functionParams":[
+                  "between"
+               ]
+            },
+            "predictiveKeyType":{
+               "valueType":"string",
+               "display":"none",
+               "parseFrom":"getHashedValue",
+               "functionParams":[
+                  "avgOrder"
+               ]
+            }
+         },
+         "functionTemplate":"spApi.checkPredictiveAmountData({time}, \"{predictiveKeyTime}\", \"{predictiveKeyType}\", {timestamp1}, {timestamp2}, {amount}, {%operator%})",
+         "mainFunctionPrefixes":[
+            "checkPredictiveAmountData"
+         ]
+      },
+      {
+         "category":"2",
+         "id":"9",
+         "name":"Total Spend (all-time)",
+         "alias":"totalSpentAll",
+         "operatorType":"midNumber",
+         "inputs":{
+            "spent":{
+               "inputType":"number",
+               "valueType":"int",
+               "placeholder":"Total Spend"
+            },
+            "predictiveKeyTime":{
+               "valueType":"string",
+               "display":"none",
+               "parseFrom":"getHashedValue",
+               "functionParams":[
+                  "of all time"
+               ]
+            },
+            "predictiveKeyType":{
+               "valueType":"string",
+               "display":"none",
+               "parseFrom":"getHashedValue",
+               "functionParams":[
+                  "totalSpent"
+               ]
+            }
+         },
+         "functionTemplate":"spApi.checkPredictiveAmountData(\"\", \"{predictiveKeyTime}\", \"{predictiveKeyType}\",  \"undefined\", \"undefined\", {spent}, {%operator%})",
+         "mainFunctionPrefixes":[
+            "checkPredictiveAmountData"
+         ]
+      },
+      {
+         "category":"2",
+         "id":"10",
+         "name":"Total Spend (last x days)",
+         "alias":"totalSpentDay",
+         "operatorType":"midNumber",
+         "inputs":{
+            "day":{
+               "inputType":"number",
+               "valueType":"int",
+               "placeholder":"Number of Days"
+            },
+            "spent":{
+               "inputType":"number",
+               "valueType":"int",
+               "placeholder":"Amount"
+            },
+            "predictiveKeyTime":{
+               "valueType":"string",
+               "display":"none",
+               "parseFrom":"getHashedValue",
+               "functionParams":[
+                  "in last"
+               ]
+            },
+            "predictiveKeyType":{
+               "valueType":"string",
+               "display":"none",
+               "parseFrom":"getHashedValue",
+               "functionParams":[
+                  "totalSpent"
+               ]
+            }
+         },
+         "functionTemplate":"spApi.checkPredictiveAmountData({day}, \"{predictiveKeyTime}\", \"{predictiveKeyType}\",  \"undefined\", \"undefined\", {spent}, {%operator%})",
+         "mainFunctionPrefixes":[
+            "checkPredictiveAmountData"
+         ]
+      },
+      {
+         "category":"2",
+         "id":"11",
+         "name":"Total Spend (during a time period)",
+         "alias":"totalSpentTime",
+         "operatorType":"midNumber",
+         "inputs":{
+            "time":{
+               "inputType":"text",
+               "valueType":"string",
+               "placeholder":"Time Period",
+               "class":"dateRangePicker"
+            },
+            "spent":{
+               "inputType":"number",
+               "valueType":"int",
+               "placeholder":"Amount"
+            },
+            "timestamp1":{
+               "valueType":"string",
+               "display":"none",
+               "parseFrom":"parseBetweenTime",
+               "functionParams":[
+                  "{time}",
+                  "first"
+               ]
+            },
+            "timestamp2":{
+               "valueType":"string",
+               "display":"none",
+               "parseFrom":"parseBetweenTime",
+               "functionParams":[
+                  "{time}",
+                  "second"
+               ]
+            },
+            "predictiveKeyTime":{
+               "valueType":"string",
+               "display":"none",
+               "parseFrom":"getHashedValue",
+               "functionParams":[
+                  "between"
+               ]
+            },
+            "predictiveKeyType":{
+               "valueType":"string",
+               "display":"none",
+               "parseFrom":"getHashedValue",
+               "functionParams":[
+                  "totalSpent"
+               ]
+            }
+         },
+         "functionTemplate":"spApi.checkPredictiveAmountData({time}, \"{predictiveKeyTime}\", \"{predictiveKeyType}\",  {timestamp1}, {timestamp2}, {spent}, {%operator%})",
+         "mainFunctionPrefixes":[
+            "checkPredictiveAmountData"
+         ]
+      },
+      {
+         "category":"2",
+         "id":"12",
+         "name":"Purchase Count (all-time)",
+         "alias":"purchaseCountAll",
+         "operatorType":"midNumber",
+         "inputs":{
+            "count":{
+               "inputType":"number",
+               "valueType":"int",
+               "placeholder":"Count"
+            },
+            "predictiveKeyTime":{
+               "valueType":"string",
+               "display":"none",
+               "parseFrom":"getHashedValue",
+               "functionParams":[
+                  "of all time"
+               ]
+            },
+            "predictiveKeyType":{
+               "valueType":"string",
+               "display":"none",
+               "parseFrom":"getHashedValue",
+               "functionParams":[
+                  "purchaseCount"
+               ]
+            }
+         },
+         "functionTemplate":"spApi.checkPredictiveAmountData(\"\", \"{predictiveKeyTime}\", \"{predictiveKeyType}\", \"undefined\", \"undefined\", {count}, {%operator%})",
+         "mainFunctionPrefixes":[
+            "checkPredictiveAmountData"
+         ]
+      },
+      {
+         "category":"2",
+         "id":"13",
+         "name":"Purchase Count (last x day(s))",
+         "alias":"purchaseCountDay",
+         "operatorType":"midNumber",
+         "inputs":{
+            "day":{
+               "inputType":"number",
+               "valueType":"int",
+               "placeholder":"Number of Days"
+            },
+            "count":{
+               "inputType":"number",
+               "valueType":"int",
+               "placeholder":"Count"
+            },
+            "predictiveKeyTime":{
+               "valueType":"string",
+               "display":"none",
+               "parseFrom":"getHashedValue",
+               "functionParams":[
+                  "in last"
+               ]
+            },
+            "predictiveKeyType":{
+               "valueType":"string",
+               "display":"none",
+               "parseFrom":"getHashedValue",
+               "functionParams":[
+                  "purchaseCount"
+               ]
+            }
+         },
+         "functionTemplate":"spApi.checkPredictiveAmountData({day}, \"{predictiveKeyTime}\", \"{predictiveKeyType}\", \"undefined\", \"undefined\", {count}, {%operator%})",
+         "mainFunctionPrefixes":[
+            "checkPredictiveAmountData"
+         ]
+      },
+      {
+         "category":"2",
+         "id":"14",
+         "name":"Purchase Count (during a time period)",
+         "alias":"purchaseCountTime",
+         "operatorType":"midNumber",
+         "inputs":{
+            "time":{
+               "inputType":"text",
+               "valueType":"string",
+               "placeholder":"Time Period",
+               "class":"dateRangePicker"
+            },
+            "count":{
+               "inputType":"number",
+               "valueType":"int",
+               "placeholder":"Count"
+            },
+            "timestamp1":{
+               "valueType":"string",
+               "display":"none",
+               "parseFrom":"parseBetweenTime",
+               "functionParams":[
+                  "{time}",
+                  "first"
+               ]
+            },
+            "timestamp2":{
+               "valueType":"string",
+               "display":"none",
+               "parseFrom":"parseBetweenTime",
+               "functionParams":[
+                  "{time}",
+                  "second"
+               ]
+            },
+            "predictiveKeyTime":{
+               "valueType":"string",
+               "display":"none",
+               "parseFrom":"getHashedValue",
+               "functionParams":[
+                  "between"
+               ]
+            },
+            "predictiveKeyType":{
+               "valueType":"string",
+               "display":"none",
+               "parseFrom":"getHashedValue",
+               "functionParams":[
+                  "purchaseCount"
+               ]
+            }
+         },
+         "functionTemplate":"spApi.checkPredictiveAmountData({time}, \"{predictiveKeyTime}\", \"{predictiveKeyType}\",  {timestamp1}, {timestamp2}, {count}, {%operator%})",
+         "mainFunctionPrefixes":[
+            "checkPredictiveAmountData"
+         ]
+      },
+      {
+         "category":"2",
+         "id":"15",
+         "name":"Last Purchase Date (last x day(s))",
+         "alias":"lastPurchaseDay",
+         "operatorType":"booleanIn",
+         "inputs":{
+            "day":{
+               "inputType":"number",
+               "valueType":"int",
+               "placeholder":"Number of Days"
+            },
+            "predictiveKeyTime":{
+               "valueType":"string",
+               "display":"none",
+               "parseFrom":"getHashedValue",
+               "functionParams":[
+                  "in last"
+               ]
+            },
+            "predictiveKeyType":{
+               "valueType":"string",
+               "display":"none",
+               "parseFrom":"getHashedValue",
+               "functionParams":[
+                  "lastPurchaseDay"
+               ]
+            }
+         },
+         "functionTemplate":"spApi.checkPredictivePurchaseData({day}, \"{predictiveKeyTime}\",  \"{predictiveKeyType}\", \"undefined\", \"undefined\")",
+         "mainFunctionPrefixes":[
+            "checkPredictivePurchaseData"
+         ]
+      },
+      {
+         "category":"2",
+         "id":"17",
+         "name":"Last Purchase Amount",
+         "alias":"lastPurchaseAmount",
+         "operatorType":"booleanBetween",
+         "inputs":{
+            "min":{
+               "inputType":"number",
+               "valueType":"int",
+               "placeholder":"Minimum Amount"
+            },
+            "max":{
+               "inputType":"number",
+               "valueType":"int",
+               "placeholder":"Maximum Amount"
+            },
+            "predictiveKeyTime":{
+               "valueType":"string",
+               "display":"none",
+               "parseFrom":"getHashedValue",
+               "functionParams":[
+                  "between"
+               ]
+            },
+            "predictiveKeyType":{
+               "valueType":"string",
+               "display":"none",
+               "parseFrom":"getHashedValue",
+               "functionParams":[
+                  "lastPurchaseAmount"
+               ]
+            }
+         },
+         "functionTemplate":"spApi.checkPredictivePurchaseData(\"undefined\", \"{predictiveKeyTime}\", \"{predictiveKeyType}\", {min}, {max})",
+         "mainFunctionPrefixes":[
+            "checkPredictivePurchaseData"
+         ]
+      }
+   ],
+  "parameterOperators":{
+      "is":"eq",
+      "is not":"ne",
+      "contains":"cnt",
+      "does not contain":"dnc",
+      "exactly":"eq",
+      "does not match":"ne",
+      "greater than":"gt",
+      "less than":"lt",
+      "greater than or equal to":"ge",
+      "less than or equal to":"le",
+      "equal to":"eq",
+      "in":"eq",
+      "not in":"ne",
+      "before":"lt",
+      "after":"gt",
+      "is equal to":"eq",
+      "fake is":"eq",
+      "fake is not":"ne",
+      "fake contains":"cnt",
+      "fake does not contain":"ne",
+      "fake exactly":"eq",
+      "fake does not match":"ne",
+      "fake greater than":"gt",
+      "fake less than":"lt",
+      "fake greater than or equal to":"ge",
+      "fake less than or equal to":"le",
+      "fake equal to":"eq",
+      "fake in":"eq",
+      "fake not in":"ne",
+      "fake before":"lt",
+      "fake after":"gt",
+      "fake is equal to":"eq",
+      "include":"gt",
+      "exclude":"eq",
+      "empty":"blank",
+      "not empty":"filled"
+   }
+}
