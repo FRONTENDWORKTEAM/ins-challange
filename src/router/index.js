@@ -10,6 +10,11 @@ const routes = [
     name: 'Start',
     component: Start,
   },
+  {
+    path: '/create/:id',
+    name: 'Create',
+    component: () => import(/* webpackChunkName: "create" */ '../views/Create.vue'),
+  },
 ];
 
 const router = new VueRouter({
