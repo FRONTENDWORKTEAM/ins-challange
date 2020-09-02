@@ -1,0 +1,15 @@
+.btn {
+  .icon {
+    display: inline-block;
+    margin-right: 0.5rem;
+    height: 1rem;
+    width: auto;
+  }
+  &.is-icon-text {
+    .btn-wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+  }
+}
