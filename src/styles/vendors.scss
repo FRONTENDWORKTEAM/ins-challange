@@ -1,1 +1,9 @@
+@import './shareds.scss';
+
+$theme-colors: (
+  "primary": $colorPrimary
+);
+
+$body-color: $colorText;
+
 @import "~bootstrap/scss/bootstrap";
