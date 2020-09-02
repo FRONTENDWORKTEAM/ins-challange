@@ -15,7 +15,7 @@ export default {
       categoriesSelected: 'application/categoriesSelected',
     }),
     redirectRoute() {
-      return this.categoriesSelected.includes(`${this.id}`) ? `/create/${this.id}` : '/';
+      return this.categoriesSelected.includes(this.id) ? `/create/${this.id}` : '/';
     },
   },
   props: {
@@ -25,7 +25,7 @@ export default {
       default: null,
     },
     id: {
-      type: Number,
+      type: String,
       required: true,
       default: null,
     },
