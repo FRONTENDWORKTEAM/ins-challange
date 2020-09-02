@@ -1,9 +1,11 @@
 <template lang="pug">
   main.component.is-start
+    Alert
 </template>
 
 <script>
 import { mapGetters, mapActions } from 'vuex';
+import Alert from '../components/partials/Start/Altert.vue';
 
 export default {
   name: 'Start',
@@ -20,6 +22,9 @@ export default {
   },
   mounted() {
     this.getAppData();
+  },
+  components: {
+    Alert,
   },
 };
 </script>
