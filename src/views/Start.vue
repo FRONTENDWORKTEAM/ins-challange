@@ -1,10 +1,10 @@
 <template lang="pug">
-  main.component.is-home
+  main.component.is-start
 </template>
 
 <script>
 
 export default {
-  name: 'Home',
+  name: 'Start',
 };
 </script>
