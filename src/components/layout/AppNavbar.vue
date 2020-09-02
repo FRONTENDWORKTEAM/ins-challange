@@ -2,7 +2,7 @@
 section.component.is-navbar
   nav.navbar.navbar-expand-lg.navbar-dark
     .container-fluid
-      a.navbar-brand(href="#")
+      router-link.navbar-brand(to="/")
         img(src="../../assets/logo.svg")
       button.navbar-toggler(
         type="button"
