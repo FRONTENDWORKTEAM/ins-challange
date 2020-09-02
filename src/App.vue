@@ -4,4 +4,5 @@
 </template>
 
 <style lang="scss">
+@import './styles/vendors.scss';
 </style>
