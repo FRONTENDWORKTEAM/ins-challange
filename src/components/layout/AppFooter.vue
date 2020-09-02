@@ -23,7 +23,7 @@ export default {
   },
   methods: {
     downloadFile() {
-      const filename = 'saveData.json';
+      const filename = 'savedata.json';
       const blob = new Blob([JSON.stringify(this.groups)], { type: 'text/plain' });
       if (window.navigator && window.navigator.msSaveOrOpenBlob) {
         window.navigator.msSaveOrOpenBlob(blob, filename);
