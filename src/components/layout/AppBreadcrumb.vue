@@ -37,8 +37,8 @@ $this: 'breadcrumb';
 section.component {
   &.is-#{$this} {
     background: #fff;
-    border-bottom: 1px solid #DCDEE6;
-    color: #5D6980;
+    border-bottom: 1px solid $colorBorder;
+    color: $colorText;
     .#{$this} {
       &--features {
         display: flex;
@@ -46,7 +46,7 @@ section.component {
         &__item {
           padding: 1rem 2rem;
           &.is-back {
-            border-right: 1px solid #DCDEE6;
+            border-right: 1px solid $colorBorder;
           }
           &.is-list {
             flex-basis: 0;
@@ -89,7 +89,7 @@ section.component {
               height: 0.625rem;
               width: auto;
               margin-left: 0.5rem;
-              color: #5D6980;
+              color: $colorText;
             }
           }
           &.is-active {
