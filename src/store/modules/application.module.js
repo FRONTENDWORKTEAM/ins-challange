@@ -6,20 +6,18 @@ const getters = {
   operators: (state) => state.application.operators,
   inputs: (state) => state.application.inputs,
   conditions: (state) => state.application.conditions,
-  groupList: (state) => state.groupList,
 };
 
 const actions = {
-  getAppData: ({ commit }) => {
+  async getAppData({ commit }) {
     commit('SET_LOADING', true);
 
-    fetch('/conditionSettings.json')
+    await fetch('/conditionSettings.json')
       .then((response) => response.json())
       .then(
         (data) => {
           commit('SET_LOADED', true);
           commit('SET_APPLICATION', data);
-          commit('SET_GROUPLIST', {});
         },
         (err) => {
           // error callback
@@ -30,10 +28,6 @@ const actions = {
       .finally(() => {
         commit('SET_LOADING', false);
       });
-  },
-  setContent: ({ commit }) => {
-    commit('SET_LOADED', true);
-    commit('SET_LOADING', false);
   },
   selectCategory: ({ commit, state }, id) => {
     const conditions = state.conditions.filter((item) => item.category === id);
@@ -51,16 +45,12 @@ const mutations = {
   SET_APPLICATION(state, application) {
     state.application = application;
   },
-  SET_GROUPLIST(state, groupList) {
-    state.groupList = groupList;
-  },
 };
 
 const state = {
   loading: false,
   loaded: false,
   application: {},
-  groupList: {},
 };
 
 export default {
