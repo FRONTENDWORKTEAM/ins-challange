@@ -42,6 +42,7 @@ section.component {
       border: 1px solid $colorBorder;
       &__title {
         padding: 2.25rem 2rem;
+        border-bottom: 1px solid $colorBorder;
         h3 {
           font-size: 1rem;
           color: $colorText;
@@ -52,7 +53,7 @@ section.component {
         flex-wrap: wrap;
         &__item {
           width: 33.33333%;
-          border-top: 1px solid $colorBorder;
+          border-bottom: 1px solid $colorBorder;
           border-right: 1px solid $colorBorder;
           &:nth-child(3n+0) {
             border-right: none;

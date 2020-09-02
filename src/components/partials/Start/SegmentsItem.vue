@@ -4,6 +4,10 @@
       span.start-segments-item--title
         Icon.icon(name="segment-1")
         span.title {{ segment }}
+      span
+        | Aute esse sunt id do. Anim sit ad ex tempor.
+        | Ad dolor sint enim ipsum in irure quis id tempor ad aliqua veniam officia.
+        | Officia excepteur ea voluptate duis velit est ullamco pariatur fugiat.
 </template>
 
 <script>
@@ -29,9 +33,6 @@ export default {
       required: true,
       default: null,
     },
-  },
-  mounted() {
-    console.log(this.segment);
   },
 };
 </script>
