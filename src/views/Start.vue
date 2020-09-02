@@ -1,11 +1,13 @@
 <template lang="pug">
   main.component.is-start
     Alert
+    Segments
 </template>
 
 <script>
 import { mapGetters, mapActions } from 'vuex';
 import Alert from '../components/partials/Start/Altert.vue';
+import Segments from '../components/partials/Start/Segments.vue';
 
 export default {
   name: 'Start',
@@ -25,6 +27,7 @@ export default {
   },
   components: {
     Alert,
+    Segments,
   },
 };
 </script>

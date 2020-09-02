@@ -29,6 +29,10 @@ export default {
           name: 'info',
           viewBox: '0 0 18 18',
         },
+        {
+          name: 'segment-1',
+          viewBox: '0 0 28 26',
+        },
       ],
     };
   },
