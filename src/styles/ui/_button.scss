@@ -12,4 +12,17 @@
       align-items: center;
     }
   }
+  &.is-info {
+    background: #F7F9FA;
+    border: 1px solid #DCDEE6;
+    color: $colorTitle;
+  }
+  &.btn-lg {
+    font-size: 1rem;
+  }
+}
+.btn-check:checked + .is-info, .btn-check:active + .is-info, .is-info:active, .is-info.active, .show > .is-info.dropdown-toggle {
+  background: #C2DDFF;
+  border-color: $colorPrimary;
+  color: $colorPrimary;
 }

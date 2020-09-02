@@ -6,9 +6,10 @@
     line-height: 1rem;
     color: $colorTitle;
   }
-  &-control {
+  &-control,
+  &-select {
     border-color: $colorBorder;
-    background: #FFFFFF;
+    background-color: #F7F9FA;
     color: $colorTitle;
   }
 }
