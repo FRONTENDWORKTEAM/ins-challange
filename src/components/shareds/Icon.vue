@@ -25,6 +25,10 @@ export default {
           name: 'close',
           viewBox: '0 0 14 14',
         },
+        {
+          name: 'info',
+          viewBox: '0 0 18 18',
+        },
       ],
     };
   },
