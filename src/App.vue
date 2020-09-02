@@ -3,16 +3,19 @@
     AppIconset
     AppHeader
     router-view
+    AppFooter
 </template>
 
 <script>
 import AppIconset from './components/layout/AppIconset.vue';
 import AppHeader from './components/layout/AppHeader.vue';
+import AppFooter from './components/layout/AppFooter.vue';
 
 export default {
   components: {
     AppIconset,
     AppHeader,
+    AppFooter,
   },
 };
 </script>
